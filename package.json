@@ -2,6 +2,7 @@
   "name": "ts-webpack-fork-type-check-mve",
   "version": "0.0.1",
   "description": "A minimum-viable-example (MVE) of the type errors encountered in webpack config with fork-ts-checker-webpack-plugin.",
+  "private": true,
   "main": "src/frontend/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -13,6 +13,7 @@
   "author": "Andrew Pinkham (https://www.jambonsw.com/)",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "fork-ts-checker-webpack-plugin": "git://github.com/Realytics/fork-ts-checker-webpack-plugin.git#feature/declaration-files",
     "html-webpack-plugin": "2.30.1",
     "ts-loader": "3.1.1",
     "ts-node": "3.3.0",

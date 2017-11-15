@@ -1,4 +1,5 @@
 import * as webpack from 'webpack'
+import * as ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin'
 import * as HtmlWebpackPlugin from 'html-webpack-plugin'
 import * as path from 'path'
 
@@ -22,6 +23,7 @@ const config: webpack.Configuration = {
     ],
   },
   plugins: [
+    new ForkTsCheckerWebpackPlugin(),
     new HtmlWebpackPlugin(),
   ],
 }
